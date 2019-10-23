@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4be091f5-95f6-4f08-abc7-942a8a98bd87" name="Default Changelist" comment="" />
+    <list default="true" id="4be091f5-95f6-4f08-abc7-942a8a98bd87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/santas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_google_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/clean_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baseball_01/00000304.jpg:large" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baseball_01/00000435.jpg?sw=2000&amp;sh=2000&amp;sm=fit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baseball_01/113.KZQOPNCTHVPVVYZ.20160422195622.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baseball_01/204.IMG_4486_large.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baseball_01/281.DSC_1553.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_bing_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/search_bing_api.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,26 +64,27 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="jpg" value="2" />
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="20" />
           <entry key="gitignore" value="5" />
-          <entry key="py" value="6098" />
+          <entry key="py" value="7874" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="6098" />
+          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="Python" value="7874" />
         </counts>
       </usages-collector>
     </session>
@@ -81,11 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search_bing_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -93,10 +103,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clean_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="195">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search_google_images.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,20 +127,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -140,15 +153,17 @@
       <list>
         <option value="$PROJECT_DIR$/model/small_vgg.py" />
         <option value="$PROJECT_DIR$/train.py" />
-        <option value="$PROJECT_DIR$/search_bing_api.py" />
-        <option value="$PROJECT_DIR$/clean_data.py" />
-        <option value="$PROJECT_DIR$/check_data.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/search_bing_api.py" />
+        <option value="$PROJECT_DIR$/check_data.py" />
+        <option value="$PROJECT_DIR$/clean_data.py" />
+        <option value="$PROJECT_DIR$/pull_data.py" />
+        <option value="$PROJECT_DIR$/search_google_images.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="715" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="651" />
     <option name="height" value="744" />
@@ -165,6 +180,11 @@
             <path>
               <item name="sports" type="b2602c69:ProjectViewProjectNode" />
               <item name="sports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sports" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,9 +251,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="715" y="24" width="651" height="744" extended-state="4" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35031846" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17214398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,7 +265,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.64123374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.49223602" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -272,20 +293,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/test/1/00000004.jpg" />
     <entry file="file://$PROJECT_DIR$/data/test/1/4.file-20171128-2009-1n16cwd.jpg" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/search_bing_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clean_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="195">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -294,18 +319,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/check_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/search_google_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

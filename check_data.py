@@ -1,3 +1,7 @@
+"""
+Script to check images of dataset one by one and delete the irrelevant ones
+"""
+
 import os
 import cv2
 import pathlib
@@ -16,12 +20,11 @@ if __name__ == '__main__':
     for filepath in pathlib.Path(data_dir).glob('*/'):
 
         img = cv2.imread(str(filepath))
-        print(img.shape)
         new_width = int(img.shape[1] * (new_height / img.shape[0]))
         img = cv2.resize(img, (new_width, new_height), interpolation=cv2.INTER_CUBIC)
-        print(img.shape)
         cv2.putText(img, "n: next image", (10, 50), 2, 0.5, (0, 255, 255), 2)
         cv2.putText(img, "d: delete image", (10, 80), 2, 0.5, (0, 255, 255), 2)
+        cv2.putText(img, "s: stop process", (10, 110), 2, 0.5, (0, 255, 255), 2)
         cv2.imshow("img", img)
 
         while True:

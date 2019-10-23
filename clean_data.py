@@ -11,6 +11,8 @@ args = ap.parse_args()
 
 def dhash(image, hashSize=8):
     """
+    Function to computer the hash number
+
     :param image: image in grayscale
     :param hashSize: integer number
     :return: 64 bit hash number of thr image
@@ -22,9 +24,19 @@ def dhash(image, hashSize=8):
 
 def find_duplicates(subdir, hashing_thr=2**10):
 
+    """
+    Function to find duplicated images using the distance
+    between hash numbers
+
+    :param subdir: directory of images to analyze
+    :param hashing_thr: hashing threshold to determine if one image is different from another
+    :return: numpy array of paths of the duplicated images
+    """
+
     hash_numbers = []
     filepaths = [filepath for filepath in subdir.glob('*/')]
 
+    # Compute hash numbers of all images in directory
     for filepath in subdir.glob('*/'):
         img = cv2.imread(str(filepath))
         img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -50,10 +62,14 @@ if __name__ == '__main__':
         if not os.path.exists(filepath):
             print("[INFO] filepath {} do not exist".format(filepath))
             continue
+        try:
+            img = cv2.imread(filepath)
 
-        img = cv2.imread(filepath)
-
-        if img is None:
+            if img is None:
+                print("[INFO] deleting corrupted image {}".format(filepath))
+                os.remove(filepath)
+                continue
+        except:
             print("[INFO] deleting corrupted image {}".format(filepath))
             os.remove(filepath)
             continue
